@@ -33,7 +33,6 @@ class App extends Component {
     //console.log(this.state.todos);
     return (
       <div className="App">
-        {/*passing states to todos component*/} 
         <Todos todos={this.state.todos}/>
       </div>
     );
